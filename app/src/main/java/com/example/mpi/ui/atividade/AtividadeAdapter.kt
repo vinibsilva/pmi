@@ -27,7 +27,7 @@ class AtividadeAdapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AtividadeViewHolder {
-        val binding = FragmentAtividadeItemBinding.inflate(LayoutInflater.from(parent.context), parent, false) // Mantive o nome do binding, ajuste se necessário
+        val binding = FragmentAtividadeItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)  
         return AtividadeViewHolder(binding)
     }
 

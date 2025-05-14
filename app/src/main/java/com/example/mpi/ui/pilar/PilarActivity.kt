@@ -99,7 +99,6 @@ class PilarActivity : AppCompatActivity() {
     }
 
     private fun editarPilar(pilar: Pilar) {
-        // Aqui está a Intent corrigida:
         val intent = Intent(this, EditarPilarActivity::class.java) // Substitua se o pacote for diferente
         intent.putExtra("pilar_id", pilar.id)
         intent.putExtra("pilar_nome", pilar.nome)
@@ -113,7 +112,6 @@ class PilarActivity : AppCompatActivity() {
     }
 
     private fun excluirPilar(pilar: Pilar) {
-        // Aqui você implementará a lógica para excluir o pilar
         val db = dbHelper.writableDatabase
         val whereClause = "${android.provider.BaseColumns._ID} = ?"
         val whereArgs = arrayOf(pilar.id.toString())

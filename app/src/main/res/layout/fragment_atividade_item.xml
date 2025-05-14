@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvNomeAtividadeItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter18pt_extra_bold"
+            android:textSize="22sp"
+            tools:text="Nome da Atividade"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayoutAtividades" />
+
+        <TextView
+            android:id="@+id/tvDescricaoAtividadeItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/inria_sans_regular"
+            tools:text="Descrição detalhada da atividade."
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvNomeAtividadeItem"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayoutAtividades" />
+
+        <TextView
+            android:id="@+id/tvDataInicioAtividadeItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/inria_sans_regular"
+            tools:text="Início: 01/01/2025"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDescricaoAtividadeItem"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayoutAtividades" />
+
+        <TextView
+            android:id="@+id/tvDataTerminoAtividadeItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/inria_sans_regular"
+            tools:text="Término: 31/12/2025"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDataInicioAtividadeItem"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayoutAtividades" />
+
+        <TextView
+            android:id="@+id/tvResponsavelAtividadeItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/inria_sans_regular"
+            tools:text="Responsável: 123"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDataTerminoAtividadeItem"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayoutAtividades" />
+
+        <TextView
+            android:id="@+id/tvAprovadoAtividadeItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/inria_sans_regular"
+            tools:text="Aprovada"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvResponsavelAtividadeItem"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayoutAtividades" />
+
+        <TextView
+            android:id="@+id/tvFinalizadaAtividadeItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/inria_sans_regular"
+            tools:text="Finalizada: Sim"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvAprovadoAtividadeItem"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayoutAtividades" />
+
+        <TextView
+            android:id="@+id/tvOrcamentoAtividadeItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/inria_sans_regular"
+            tools:text="Orçamento: R$ 1.000,00"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvFinalizadaAtividadeItem"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayoutAtividades" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAtividades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <Button
+                android:id="@+id/btnEditarAtividade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#FE9A22"
+                android:text="Editar"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnExcluirAtividade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#9A1515"
+                android:text="Excluir"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

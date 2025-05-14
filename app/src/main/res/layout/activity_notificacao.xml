@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NotificacaoActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ADD8E6">
+
+        <ImageView
+            android:id="@+id/viewVoltarMenuPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="42dp"
+            android:textColor="@color/black"
+            android:text="Integrador respondeu:\nFulano, Gerenciador de Boletos\nFalta 1 dia!"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="42dp"
+            android:textColor="@color/black"
+            android:text="Integrador respondeu:\nFulano, Gerenciador de Boletos\nFaltam 3 dias!"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="42dp"
+            android:textColor="@color/black"
+            android:text="Integrador respondeu:\nFulano, Gerenciador de Boletos\nFaltam 7 dias!"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="42dp"
+            android:textColor="@color/black"
+            android:text="Integrador respondeu:\nFulano, Gerenciador de Boletos\nFaltam 10 dias!"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="42dp"
+            android:textColor="@color/black"
+            android:text="Integrador respondeu:\nFulano, Gerenciador de Boletos\nFaltam 14 dias!"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="42dp"
+            android:textColor="@color/black"
+            android:text="Integrador respondeu:\nFulano, Gerenciador de Boletos\nFaltam 20 dias!"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="42dp"
+            android:textColor="@color/black"
+            android:text="Integrador respondeu:\nFulano, Gerenciador de Boletos\nFaltam 25 dias!"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="42dp"
+            android:textColor="@color/black"
+            android:text="Integrador respondeu:\nFulano, Gerenciador de Boletos\nFaltam 27 dias!"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="42dp"
+            android:textColor="@color/black"
+            android:text="Integrador respondeu:\nFulano, Gerenciador de Boletos\nFaltam 30 dias!"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</ScrollView>

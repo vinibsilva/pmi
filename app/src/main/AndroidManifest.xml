@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MPI"
+        tools:targetApi="34">
+        <activity
+            android:name=".ui.atividade.EditarAtividadeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.acao.EditarAcaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.subpilar.EditarSubpilarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboard.Opcao1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboard.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.NotificacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.atividade.AtividadeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.acao.AcaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.subpilar.SubpilarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pilar.EditarPilarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pilar.PilarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.atividade.CadastroAtividade"
+            android:exported="false" />
+        <activity
+            android:name=".ui.acao.CadastroAcaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.subpilar.cadastroSubpilar"
+            android:exported="false" />
+        <activity
+            android:name=".ui.pilar.cadastroPilar"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.AprovacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.FinalizacaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.PercentualActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

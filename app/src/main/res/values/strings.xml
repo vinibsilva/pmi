@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MPI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="array_ano">
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+    </string-array>
+
+    <string-array name="array_pilar">
+        <item>Pilar XPTO</item>
+        <item>Pilar ABC</item>
+        <item>Pilar XYZ</item>
+        <item>Ouvidoria e monitoramento</item>
+    </string-array>
+
+    <string-array name="array_subpilar">
+        <item>Subilar XPTO</item>
+        <item>Subilar ABC</item>
+        <item>Subilar XYZ</item>
+        <item>Subpilar da Ouvidoria e monitoramento</item>
+    </string-array>
+
+    <string-array name="array_acao">
+        <item>Ação XPTO</item>
+        <item>Ação ABC</item>
+        <item>Ação XYZ</item>
+        <item>Ação da Ouvidoria e monitoramento</item>
+    </string-array>
+
+    <string-array name="array_atividade">
+        <item>Atividade XPTO</item>
+        <item>Atividade ABC</item>
+        <item>Atividade XYZ</item>
+        <item>Atividade da Ouvidoria e monitoramento</item>
+    </string-array>
+
+    <string name="logo_description">Logo do Senac</string>
+    <string name="voltar">Voltar</string>
+    <string name="pesquisar">Pesquisar</string>
+</resources>
